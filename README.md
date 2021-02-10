@@ -28,15 +28,43 @@ This will install GOOSE locally.
 ## Terminal usage - 
 
 To use PIPIT from the terminal just use the **pipit-shuffle** command. There are 3 required pieces of information that must be supplied in this order.
+
 **Required**
+
 1. The sequence to be shuffled
 2. The starting residue of the region of the sequence to either shuffle **which is default** or hold constant **if inverse is specified**
 3. The ending residue of the region of the sequence to either shuffle **which is default** or hold constant **if inverse is specified**
+
+Example - 
+
+
+    $ pipit-shuffle SSSSMSEGSHPRKTNDDQAN 5 15
+
+    $ ['SSSSMPERNTSKSGHDDQAN']
+
+
 **Optional**
+
 *Number of blocks* 
 If you use the -n or --number flag, you can specify a number of of blocks to break up the shuffled regions into. When you specify a number, PIPIT will return all possible shuffled sequences. By default, if the block number is not compatible with the size of the region that you are shuffling, PIPIT will add the remainder to the fewest possible blocks. Furthermore, PIPIT will let you know.
+
+Example - 
+
+
+    $ pipit-shuffle SSSSMSEGSHPRKTNDDQAN 5 15 -n 2
+
+    $ ['SSSSGHSSEMPRKTNDDQAN', 'SSSSMSEGSHNTRKPDDQAN']
+
+
 *Inverse*
 If you want to specify a region to keep constant rather than a region to shuffle, simply use the -i flag.
+
+Example - 
+
+
+    $ pipit-shuffle SSSSMSEGSHPRKTNDDQAN 5 15 -n 2 -i
+
+    $ ['SSSSMSEGSHPRKTNDDQAN', 'SSSSMSEGSHPRKTNDDQAN', 'SSSSMSEGSHPRKTNDDQAN', 'SSSSMSEGSHPRKTNDDQNA']
 
 
 ### Copyright
