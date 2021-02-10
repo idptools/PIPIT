@@ -21,7 +21,7 @@ except:
 
 setup(
     # Self-descriptive entries which should always be present
-    name='pipit',
+    name='idptools-pipit',
     author='Ryan Emenecker Washington University School of Medicine',
     author_email='remenecker@wustl.edu',
     description=short_description[0],
