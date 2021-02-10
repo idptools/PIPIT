@@ -1,18 +1,32 @@
 PIPIT
 ==============================
-[//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/pipit/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/pipit/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/PIPIT/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/PIPIT/branch/master)
 
-**P**roteins **I**nto s**P**ecific random**I**zed segmen**T**s
+# **P**roteins **I**nto s**P**ecific random**I**zed segmen**T**s
 
-What is PIPIT?
-A simple package to design shuffled protein sequences to interupt function.
+## What is PIPIT?
+
+**PIPIT** is a simple package to design shuffled protein sequences to interupt function.
 
 How does it work?
 PIPIT can be used within Python or from the terminal. Documentation for Python usage is coming soon
 
-Terminal usage - 
+
+## Installation:
+
+From PyPi, just use
+
+    $ pip install idptools-pipit
+
+To clone the GitHub repository and gain the ability to modify a local copy of the code, run
+
+    $ git clone https://github.com/allOfTheGoodUsernamesWereTaken/PIPIT.git
+    $ cd PIPIT
+    $ pip install .
+
+This will install GOOSE locally.
+
+## Terminal usage - 
+
 To use PIPIT from the terminal just use the **pipit-shuffle** command. There are 3 required pieces of information that must be supplied in this order.
 **Required**
 1. The sequence to be shuffled
