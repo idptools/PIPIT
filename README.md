@@ -23,7 +23,7 @@ From PyPi, just use
 
 To clone the GitHub repository and gain the ability to modify a local copy of the code, run
 
-    $ git clone https://github.com/allOfTheGoodUsernamesWereTaken/PIPIT.git
+    $ git clone https://github.com/ryanemenecker/PIPIT.git
     $ cd PIPIT
     $ pip install .
 
