@@ -11,8 +11,9 @@ Welcome to PIPIT's documentation!
    :caption: Contents:
 
    getting_started
+   usage/command-line
+   usage/using-in-python
    api
-
 
 
 Indices and tables
