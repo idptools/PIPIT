@@ -28,7 +28,7 @@ To clone the GitHub repository and gain the ability to modify a local copy of th
 
 .. code-block:: bash
 
-    $ git clone https://github.com/allOfTheGoodUsernamesWereTaken/PIPIT.git
+    $ git clone https://github.com/idptools/PIPIT.git
     $ cd PIPIT
     $ pip install .
 
