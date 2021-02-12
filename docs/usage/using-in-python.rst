@@ -114,3 +114,5 @@ Example:
     shuffle.seq('ACDEFGHIKLMNPQRSTVWY', 5, 15, inverse=True, save=True, seq_names=False)
 
 
+Copyright (c) 2021, Holehouse Lab - 
+Washington University School of Medicine

@@ -170,7 +170,8 @@ Example:
 
 ### Copyright
 
-Copyright (c) 2021, Ryan Emenecker Washington University School of Medicine
+Copyright (c) 2021, Holehouse Lab - 
+Washington University School of Medicine
 
 
 #### Acknowledgements

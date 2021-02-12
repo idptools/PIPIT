@@ -51,3 +51,7 @@ Using the inverse flag
     $ ['ADECFGHIKLMNPQRSTVWY', 'ACDEFGHIKLMNPQRYVWTS']
 
 When using the inverse flag, each side of the sequence is treated as a sequence block. So in this example, the first sequence shown after the command is used has the first 4 residues shuffled whereas the second sequence has the last 5 residues shuffled. Importantly, the coordinates for teh residues to keep constant include the number specified, so in this example residues 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15 are not shuffled.
+
+
+Copyright (c) 2021, Holehouse Lab - 
+Washington University School of Medicine
