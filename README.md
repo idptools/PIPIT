@@ -8,7 +8,7 @@ PIPIT
 **PIPIT** is a simple package to design shuffled protein sequences to interupt function. Specifically, by specifying the protein region to shuffle as well as the size of sequence 'blocks' to shuffle, you can quickly generate variants that will allow you to rapidly interrogate the function of specific protein regions by changing the order of amino acids in that region.
 
 For documentation that is easier to navigate, please see - 
-https://pipit.readthedocs.io/en/latest/getting_started.html
+https://idptools-pipit.readthedocs.io/en/latest/getting_started.html
 
 
 How do you use PIPIT?

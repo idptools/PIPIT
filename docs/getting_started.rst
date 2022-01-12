@@ -34,3 +34,8 @@ To clone the GitHub repository and gain the ability to modify a local copy of th
 
 This will install PIPIT locally.
 
+
+
+Copyright (c) 2021, Holehouse Lab - 
+Washington University School of Medicine
+
